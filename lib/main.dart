@@ -10,7 +10,8 @@ class Calculator extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Simple Calculator',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.blue,),
+      // platform: TargetPlatform.iOS,
       home: SimpleCalculator(),
     );
   }
